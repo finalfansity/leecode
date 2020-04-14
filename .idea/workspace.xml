@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad97c26-889d-43ca-82ee-202aec5e86e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002两数相加/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001two-sum/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/001两数之和/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build main.go (3)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leecode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -76,6 +73,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/003无重复字符的最长字符串/main.go" />
+      <package value="demo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -98,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
@@ -120,26 +127,42 @@
       <screen x="49" y="23" width="1743" height="1097" />
     </state>
     <state x="889" y="226" key="#go_build_main.go_(1)/49.23.1743.1097@49.23.1743.1097" timestamp="1586538877614" />
-    <state width="1701" height="203" key="GridCell.Tab.0.bottom" timestamp="1586780105344">
+    <state width="1701" height="203" key="GridCell.Tab.0.bottom" timestamp="1586835894890">
       <screen x="49" y="23" width="1743" height="1097" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.bottom/47.23.1745.1097@47.23.1745.1097" timestamp="1585101820976" />
-    <state width="1701" height="203" key="GridCell.Tab.0.bottom/49.23.1743.1097@49.23.1743.1097" timestamp="1586780105344" />
-    <state width="1701" height="203" key="GridCell.Tab.0.center" timestamp="1586780105343">
+    <state width="1701" height="203" key="GridCell.Tab.0.bottom/49.23.1743.1097@49.23.1743.1097" timestamp="1586835894890" />
+    <state width="1701" height="203" key="GridCell.Tab.0.center" timestamp="1586835894889">
       <screen x="49" y="23" width="1743" height="1097" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.center/47.23.1745.1097@47.23.1745.1097" timestamp="1585101820975" />
-    <state width="1701" height="203" key="GridCell.Tab.0.center/49.23.1743.1097@49.23.1743.1097" timestamp="1586780105343" />
-    <state width="1701" height="203" key="GridCell.Tab.0.left" timestamp="1586780105342">
+    <state width="1701" height="203" key="GridCell.Tab.0.center/49.23.1743.1097@49.23.1743.1097" timestamp="1586835894889" />
+    <state width="1701" height="203" key="GridCell.Tab.0.left" timestamp="1586835894889">
       <screen x="49" y="23" width="1743" height="1097" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.left/47.23.1745.1097@47.23.1745.1097" timestamp="1585101820975" />
-    <state width="1701" height="203" key="GridCell.Tab.0.left/49.23.1743.1097@49.23.1743.1097" timestamp="1586780105342" />
-    <state width="1701" height="203" key="GridCell.Tab.0.right" timestamp="1586780105344">
+    <state width="1701" height="203" key="GridCell.Tab.0.left/49.23.1743.1097@49.23.1743.1097" timestamp="1586835894889" />
+    <state width="1701" height="203" key="GridCell.Tab.0.right" timestamp="1586835894889">
       <screen x="49" y="23" width="1743" height="1097" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.right/47.23.1745.1097@47.23.1745.1097" timestamp="1585101820976" />
-    <state width="1701" height="203" key="GridCell.Tab.0.right/49.23.1743.1097@49.23.1743.1097" timestamp="1586780105344" />
+    <state width="1701" height="203" key="GridCell.Tab.0.right/49.23.1743.1097@49.23.1743.1097" timestamp="1586835894889" />
+    <state width="1701" height="374" key="GridCell.Tab.1.bottom" timestamp="1586781135227">
+      <screen x="49" y="23" width="1743" height="1097" />
+    </state>
+    <state width="1701" height="374" key="GridCell.Tab.1.bottom/49.23.1743.1097@49.23.1743.1097" timestamp="1586781135227" />
+    <state width="1701" height="374" key="GridCell.Tab.1.center" timestamp="1586781135226">
+      <screen x="49" y="23" width="1743" height="1097" />
+    </state>
+    <state width="1701" height="374" key="GridCell.Tab.1.center/49.23.1743.1097@49.23.1743.1097" timestamp="1586781135226" />
+    <state width="1701" height="374" key="GridCell.Tab.1.left" timestamp="1586781135226">
+      <screen x="49" y="23" width="1743" height="1097" />
+    </state>
+    <state width="1701" height="374" key="GridCell.Tab.1.left/49.23.1743.1097@49.23.1743.1097" timestamp="1586781135226" />
+    <state width="1701" height="374" key="GridCell.Tab.1.right" timestamp="1586781135227">
+      <screen x="49" y="23" width="1743" height="1097" />
+    </state>
+    <state width="1701" height="374" key="GridCell.Tab.1.right/49.23.1743.1097@49.23.1743.1097" timestamp="1586781135226" />
     <state x="422" y="210" key="SettingsEditor" timestamp="1586780440120">
       <screen x="49" y="23" width="1743" height="1097" />
     </state>
