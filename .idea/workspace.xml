@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad97c26-889d-43ca-82ee-202aec5e86e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/004寻找两个有序数组的中位数/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005交替打印数字和字母/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006判断字符串中字符是否全都不同/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/007翻转字符串/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,10 @@
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+    <option name="namespace" value="default" />
   </component>
   <component name="ProjectId" id="1ZbIZkVZOJfEFsJGX677vh7HHHC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,22 +51,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leecode" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
-      <package value="demo" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/001two-sum/main.go" />
       <package value="demo" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -83,11 +80,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/005交替打印数字和字母/main.go" />
+      <package value="demo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/006判断字符串中字符是否全都不同/main.go" />
+      <package value="demo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/007翻转字符串/main.go" />
       <package value="demo" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -105,74 +120,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="520" y="247" key="#GOROOT" timestamp="1585101766053">
-      <screen x="47" y="23" width="1745" height="1097" />
-    </state>
-    <state x="520" y="247" key="#GOROOT/47.23.1745.1097@47.23.1745.1097" timestamp="1585101766053" />
-    <state x="608" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586778248156">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state x="608" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/49.23.1743.1097@49.23.1743.1097" timestamp="1586778248156" />
-    <state x="889" y="226" key="#go_build_main.go_(1)" timestamp="1586538877614">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state x="889" y="226" key="#go_build_main.go_(1)/49.23.1743.1097@49.23.1743.1097" timestamp="1586538877614" />
-    <state width="1701" height="203" key="GridCell.Tab.0.bottom" timestamp="1586838678359">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom/47.23.1745.1097@47.23.1745.1097" timestamp="1585101820976" />
-    <state width="1701" height="203" key="GridCell.Tab.0.bottom/49.23.1743.1097@49.23.1743.1097" timestamp="1586838678359" />
-    <state width="1701" height="203" key="GridCell.Tab.0.center" timestamp="1586838678358">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.center/47.23.1745.1097@47.23.1745.1097" timestamp="1585101820975" />
-    <state width="1701" height="203" key="GridCell.Tab.0.center/49.23.1743.1097@49.23.1743.1097" timestamp="1586838678358" />
-    <state width="1701" height="203" key="GridCell.Tab.0.left" timestamp="1586838678358">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.left/47.23.1745.1097@47.23.1745.1097" timestamp="1585101820975" />
-    <state width="1701" height="203" key="GridCell.Tab.0.left/49.23.1743.1097@49.23.1743.1097" timestamp="1586838678358" />
-    <state width="1701" height="203" key="GridCell.Tab.0.right" timestamp="1586838678359">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.right/47.23.1745.1097@47.23.1745.1097" timestamp="1585101820976" />
-    <state width="1701" height="203" key="GridCell.Tab.0.right/49.23.1743.1097@49.23.1743.1097" timestamp="1586838678359" />
-    <state width="1701" height="374" key="GridCell.Tab.1.bottom" timestamp="1586781135227">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state width="1701" height="374" key="GridCell.Tab.1.bottom/49.23.1743.1097@49.23.1743.1097" timestamp="1586781135227" />
-    <state width="1701" height="374" key="GridCell.Tab.1.center" timestamp="1586781135226">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state width="1701" height="374" key="GridCell.Tab.1.center/49.23.1743.1097@49.23.1743.1097" timestamp="1586781135226" />
-    <state width="1701" height="374" key="GridCell.Tab.1.left" timestamp="1586781135226">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state width="1701" height="374" key="GridCell.Tab.1.left/49.23.1743.1097@49.23.1743.1097" timestamp="1586781135226" />
-    <state width="1701" height="374" key="GridCell.Tab.1.right" timestamp="1586781135227">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state width="1701" height="374" key="GridCell.Tab.1.right/49.23.1743.1097@49.23.1743.1097" timestamp="1586781135226" />
-    <state x="422" y="210" key="SettingsEditor" timestamp="1586780440120">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state x="420" y="210" key="SettingsEditor/47.23.1745.1097@47.23.1745.1097" timestamp="1585101549564" />
-    <state x="421" y="210" key="SettingsEditor/48.23.1744.1097@48.23.1744.1097" timestamp="1585101707476" />
-    <state x="422" y="210" key="SettingsEditor/49.23.1743.1097@49.23.1743.1097" timestamp="1586780440120" />
-    <state x="943" y="214" width="683" height="729" key="find.popup" timestamp="1586539184914">
-      <screen x="49" y="23" width="1743" height="1097" />
-    </state>
-    <state x="943" y="214" width="683" height="729" key="find.popup/49.23.1743.1097@49.23.1743.1097" timestamp="1586539184914" />
+    <option name="version" value="3" />
   </component>
 </project>
